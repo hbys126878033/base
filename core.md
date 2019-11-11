@@ -30,3 +30,11 @@ base项目是记录通过SpringBoot集成其他框架
 				注意该范围是不推荐使用的（你应该一直尽量去从公共或定制的 Maven 仓库中引用依赖）。
 
 base-shiro  http://ruoyi.vip/login,http://doc.ruoyi.vip/#/
+
+2.return 在try catch的用法
+   1、不管try,finally都会执行；
+   2、在try中return，在finally执行前会把结果保存起来，
+       即使在finally中有修改也以try中保存的值为准，
+       但如果是引用类型，修改的属性会以finally修改后的为准；
+   3、如果try/finally都有return，直接返回finally中的return
+        
