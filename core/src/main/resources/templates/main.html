@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="管理系统首页">
+    <meta name="description" content="管理系统首页">
+    <!--[if lt IE 9]>
+    <meta http-equiv="refresh" content="0;ie.html"/>
+    <![endif]-->
+    <link th:href="@{/js/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+
+    <script type="text/css">
+
+
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2" style="color:#FFF;" href="#" title="收起菜单">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <ul class="nav navbar-top-links navbar-right welcome-message">
+            <li><a title="视频教程" href="http://doc.ruoyi.vip/#/standard/spjc" target="_blank"><i
+                    class="fa fa-video-camera"></i> 视频教程</a></li>
+            <li><a title="开发文档" href="http://doc.ruoyi.vip" target="_blank"><i class="fa fa-question-circle"></i>
+                开发文档</a></li>
+            <li><a title="全屏显示" href="javascript:void(0)" id="fullScreen"><i class="fa fa-arrows-alt"></i> 全屏显示</a></li>
+            <li class="dropdown user-menu">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-hover="dropdown">
+                    欢迎您使用本系统
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="mt5">
+                        <a th:href="@{/system/user/profile}" class="menuItem">
+                            <i class="fa fa-user"></i> 个人中心</a>
+                    </li>
+                    <li>
+                        <a onclick="resetPwd()" class="menuItem">
+                            <i class="fa fa-key"></i> 修改密码</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a th:href="@{logout}">
+                            <i class="fa fa-sign-out"></i> 退出登录</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>

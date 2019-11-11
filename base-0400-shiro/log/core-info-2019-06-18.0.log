@@ -1,0 +1,81 @@
+2019-06-18 09:08:34.074 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:50  - Starting Base0400ShiroApplicationTests on PC-chenlin with PID 4460 (started by 86353 in E:\code\idea\study\base\base-0400-shiro)
+2019-06-18 09:08:34.082 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:675 - No active profile set, falling back to default profiles: default
+2019-06-18 09:08:37.773 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 09:08:38.239 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:61  - Adding welcome page template: index
+2019-06-18 09:08:38.693 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:59  - Started Base0400ShiroApplicationTests in 5.569 seconds (JVM running for 7.176)
+2019-06-18 09:08:39.063 INFO  com.alibaba.druid.pool.DruidDataSource Line:1002 - {dataSource-1} inited
+2019-06-18 09:08:39.861 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 09:08:39.861 INFO  com.alibaba.druid.pool.DruidDataSource Line:1885 - {dataSource-1} closing ...
+2019-06-18 09:08:39.861 INFO  com.alibaba.druid.pool.DruidDataSource Line:1955 - {dataSource-1} closed
+2019-06-18 12:03:52.902 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:50  - Starting Base0400ShiroApplicationTests on PC-chenlin with PID 2828 (started by 86353 in E:\code\idea\study\base\base-0400-shiro)
+2019-06-18 12:03:52.912 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:675 - No active profile set, falling back to default profiles: default
+2019-06-18 12:03:56.770 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 12:03:57.183 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:61  - Adding welcome page template: index
+2019-06-18 12:03:57.597 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:59  - Started Base0400ShiroApplicationTests in 5.474 seconds (JVM running for 7.129)
+2019-06-18 12:03:57.982 INFO  com.alibaba.druid.pool.DruidDataSource Line:1002 - {dataSource-1} inited
+2019-06-18 12:03:58.668 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 12:03:58.672 INFO  com.alibaba.druid.pool.DruidDataSource Line:1885 - {dataSource-1} closing ...
+2019-06-18 12:03:58.678 INFO  com.alibaba.druid.pool.DruidDataSource Line:1955 - {dataSource-1} closed
+2019-06-18 12:04:44.934 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:50  - Starting Base0400ShiroApplicationTests on PC-chenlin with PID 8540 (started by 86353 in E:\code\idea\study\base\base-0400-shiro)
+2019-06-18 12:04:44.937 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:675 - No active profile set, falling back to default profiles: default
+2019-06-18 12:04:48.642 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 12:04:49.042 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:61  - Adding welcome page template: index
+2019-06-18 12:04:49.466 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:59  - Started Base0400ShiroApplicationTests in 5.171 seconds (JVM running for 6.493)
+2019-06-18 12:04:49.825 INFO  com.alibaba.druid.pool.DruidDataSource Line:1002 - {dataSource-1} inited
+2019-06-18 12:04:50.377 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 12:04:50.379 INFO  com.alibaba.druid.pool.DruidDataSource Line:1885 - {dataSource-1} closing ...
+2019-06-18 12:04:50.387 INFO  com.alibaba.druid.pool.DruidDataSource Line:1955 - {dataSource-1} closed
+2019-06-18 13:20:57.034 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:50  - Starting Base0400ShiroApplicationTests on PC-chenlin with PID 11680 (started by 86353 in E:\code\idea\study\base\base-0400-shiro)
+2019-06-18 13:20:57.037 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:675 - No active profile set, falling back to default profiles: default
+2019-06-18 13:21:00.154 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:21:00.526 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:61  - Adding welcome page template: index
+2019-06-18 13:21:01.020 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:59  - Started Base0400ShiroApplicationTests in 4.599 seconds (JVM running for 5.774)
+2019-06-18 13:21:01.336 INFO  com.alibaba.druid.pool.DruidDataSource Line:1002 - {dataSource-1} inited
+2019-06-18 13:21:01.734 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:21:01.736 INFO  com.alibaba.druid.pool.DruidDataSource Line:1885 - {dataSource-1} closing ...
+2019-06-18 13:21:01.749 INFO  com.alibaba.druid.pool.DruidDataSource Line:1955 - {dataSource-1} closed
+2019-06-18 13:23:00.664 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:50  - Starting Base0400ShiroApplicationTests on PC-chenlin with PID 3340 (started by 86353 in E:\code\idea\study\base\base-0400-shiro)
+2019-06-18 13:23:00.667 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:675 - No active profile set, falling back to default profiles: default
+2019-06-18 13:23:03.495 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:23:03.819 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:61  - Adding welcome page template: index
+2019-06-18 13:23:04.179 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:59  - Started Base0400ShiroApplicationTests in 3.979 seconds (JVM running for 4.909)
+2019-06-18 13:23:04.479 INFO  com.alibaba.druid.pool.DruidDataSource Line:1002 - {dataSource-1} inited
+2019-06-18 13:23:04.893 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:23:04.895 INFO  com.alibaba.druid.pool.DruidDataSource Line:1885 - {dataSource-1} closing ...
+2019-06-18 13:23:04.899 INFO  com.alibaba.druid.pool.DruidDataSource Line:1955 - {dataSource-1} closed
+2019-06-18 13:25:02.456 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:50  - Starting Base0400ShiroApplicationTests on PC-chenlin with PID 1784 (started by 86353 in E:\code\idea\study\base\base-0400-shiro)
+2019-06-18 13:25:02.458 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:675 - No active profile set, falling back to default profiles: default
+2019-06-18 13:25:05.084 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:25:05.391 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:61  - Adding welcome page template: index
+2019-06-18 13:25:05.679 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:59  - Started Base0400ShiroApplicationTests in 3.69 seconds (JVM running for 4.598)
+2019-06-18 13:25:05.910 INFO  com.alibaba.druid.pool.DruidDataSource Line:1002 - {dataSource-1} inited
+2019-06-18 13:25:06.262 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:25:06.263 INFO  com.alibaba.druid.pool.DruidDataSource Line:1885 - {dataSource-1} closing ...
+2019-06-18 13:25:06.268 INFO  com.alibaba.druid.pool.DruidDataSource Line:1955 - {dataSource-1} closed
+2019-06-18 13:26:39.782 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:50  - Starting Base0400ShiroApplicationTests on PC-chenlin with PID 11544 (started by 86353 in E:\code\idea\study\base\base-0400-shiro)
+2019-06-18 13:26:39.785 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:675 - No active profile set, falling back to default profiles: default
+2019-06-18 13:26:42.429 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:26:42.709 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:61  - Adding welcome page template: index
+2019-06-18 13:26:42.994 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:59  - Started Base0400ShiroApplicationTests in 3.695 seconds (JVM running for 4.578)
+2019-06-18 13:26:43.223 INFO  com.alibaba.druid.pool.DruidDataSource Line:1002 - {dataSource-1} inited
+2019-06-18 13:26:43.553 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:26:43.555 INFO  com.alibaba.druid.pool.DruidDataSource Line:1885 - {dataSource-1} closing ...
+2019-06-18 13:26:43.559 INFO  com.alibaba.druid.pool.DruidDataSource Line:1955 - {dataSource-1} closed
+2019-06-18 13:27:26.091 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:50  - Starting Base0400ShiroApplicationTests on PC-chenlin with PID 8796 (started by 86353 in E:\code\idea\study\base\base-0400-shiro)
+2019-06-18 13:27:26.094 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:675 - No active profile set, falling back to default profiles: default
+2019-06-18 13:27:28.678 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:27:28.950 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:61  - Adding welcome page template: index
+2019-06-18 13:27:29.205 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:59  - Started Base0400ShiroApplicationTests in 3.554 seconds (JVM running for 4.427)
+2019-06-18 13:27:29.452 INFO  com.alibaba.druid.pool.DruidDataSource Line:1002 - {dataSource-1} inited
+2019-06-18 13:27:29.784 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:27:29.785 INFO  com.alibaba.druid.pool.DruidDataSource Line:1885 - {dataSource-1} closing ...
+2019-06-18 13:27:29.789 INFO  com.alibaba.druid.pool.DruidDataSource Line:1955 - {dataSource-1} closed
+2019-06-18 13:28:55.438 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:50  - Starting Base0400ShiroApplicationTests on PC-chenlin with PID 1364 (started by 86353 in E:\code\idea\study\base\base-0400-shiro)
+2019-06-18 13:28:55.440 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:675 - No active profile set, falling back to default profiles: default
+2019-06-18 13:28:57.991 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:28:58.276 INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Line:61  - Adding welcome page template: index
+2019-06-18 13:28:58.602 INFO  com.wondersgroup.Base0400ShiroApplicationTests Line:59  - Started Base0400ShiroApplicationTests in 3.612 seconds (JVM running for 5.051)
+2019-06-18 13:28:58.850 INFO  com.alibaba.druid.pool.DruidDataSource Line:1002 - {dataSource-1} inited
+2019-06-18 13:28:59.199 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-18 13:28:59.201 INFO  com.alibaba.druid.pool.DruidDataSource Line:1885 - {dataSource-1} closing ...
+2019-06-18 13:28:59.206 INFO  com.alibaba.druid.pool.DruidDataSource Line:1955 - {dataSource-1} closed

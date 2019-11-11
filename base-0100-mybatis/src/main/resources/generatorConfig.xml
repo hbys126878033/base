@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <!--<classPathEntry
+            location="C:\\Users\\lee\\.m2\\repository\\mysql\\mysql-connector-java\\5.1.46\\mysql-connector-java-5.1.46.jar" />
+-->
+    <context id="context1" targetRuntime="MyBatis3"
+             defaultModelType="flat">
+        <!-- 生成的POJO实现java.io.Serializable接口 -->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/base-01-mybatis?characterEncoding=utf8"
+                        userId="root" password="123456"/>
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+        <javaModelGenerator
+                targetPackage="com.wondersgroup.model.entity" targetProject="src/main/java"/>
+        <sqlMapGenerator
+                targetPackage="mapper" targetProject="src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!-- 生成xml文件 -->
+        <!--<javaClientGenerator targetPackage="com.huifu.sqrc.dal.mapper" targetProject="src/main/java"
+            type="XMLMAPPER"/> -->
+
+        <!-- 生成annotated -->
+        <!--<javaClientGenerator targetPackage="com.huifu.sqrc.dal.mapper" targetProject="src/main/java"
+            type="ANNOTATEDMAPPER"/> -->
+
+
+        <!-- XML和注解的混合形式，(上面这种情况中的)SqlProvider注解方法会被XML替代 -->
+        <javaClientGenerator
+                targetPackage="com.wondersgroup.model.mapper" targetProject="src/main/java"
+                type="MIXEDMAPPER"/>
+
+        <!--
+
+                <table tableName="sys_user"
+                    domainObjectName="SysUser" enableCountByExample="false"
+                    enableUpdateByExample="false" enableDeleteByExample="false"
+                    enableSelectByExample="false" selectByExampleQueryId="false">
+                </table>
+
+                <table tableName="sys_role"
+                       domainObjectName="SysRole" enableCountByExample="false"
+                       enableUpdateByExample="false" enableDeleteByExample="false"
+                       enableSelectByExample="false" selectByExampleQueryId="false">
+                </table>
+
+                <table tableName="sys_group"
+                       domainObjectName="SysGroup" enableCountByExample="false"
+                       enableUpdateByExample="false" enableDeleteByExample="false"
+                       enableSelectByExample="false" selectByExampleQueryId="false">
+                </table>
+
+                <table tableName="sys_user_role"
+                       domainObjectName="SysUserRole" enableCountByExample="false"
+                       enableUpdateByExample="false" enableDeleteByExample="false"
+                       enableSelectByExample="false" selectByExampleQueryId="false">
+                </table>
+
+                <table tableName="sys_group_role"
+                       domainObjectName="SysGroupRole" enableCountByExample="false"
+                       enableUpdateByExample="false" enableDeleteByExample="false"
+                       enableSelectByExample="false" selectByExampleQueryId="false">
+                </table>
+
+                <table tableName="sys_group_user"
+                       domainObjectName="SysGroupUser" enableCountByExample="false"
+                       enableUpdateByExample="false" enableDeleteByExample="false"
+                       enableSelectByExample="false" selectByExampleQueryId="false">
+                </table>
+        -->
+
+        <table tableName="s_user"
+               domainObjectName="SUser" enableCountByExample="false"
+               enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+        </table>
+
+    </context>
+</generatorConfiguration>

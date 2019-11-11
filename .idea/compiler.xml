@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base-0501-cache" />
+        <module name="base-0105-data-jpa" />
+        <module name="base-0300-aop" />
+        <module name="base-0201-jsp" />
+        <module name="base-0101-mybatis-pagehelper" />
+        <module name="base-0104-mybatis-plus-and-pagehelper" />
+        <module name="base" />
+        <module name="base-0400-shiro" />
+        <module name="base-0100-mybatis" />
+        <module name="base-0102-mybatisplus" />
+        <module name="base-0103-mybatis-plus" />
+        <module name="base-0200-springmvc" />
+        <module name="core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base" options="-parameters" />
+      <module name="base-0100-mybatis" options="-parameters" />
+      <module name="base-0101-mybatis-pagehelper" options="-parameters" />
+      <module name="base-0102-mybatisplus" options="-parameters" />
+      <module name="base-0103-mybatis-plus" options="-parameters" />
+      <module name="base-0104-mybatis-plus-and-pagehelper" options="-parameters" />
+      <module name="base-0105-data-jpa" options="-parameters" />
+      <module name="base-0200-springmvc" options="-parameters" />
+      <module name="base-0201-jsp" options="-parameters" />
+      <module name="base-0300-aop" options="-parameters" />
+      <module name="base-0400-shiro" options="-parameters" />
+      <module name="base-0501-cache" options="-parameters" />
+      <module name="core" options="-parameters" />
+      <module name="demo" options="-parameters" />
+    </option>
+  </component>
+</project>

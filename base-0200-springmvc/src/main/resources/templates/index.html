@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎页面</title>
+
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css"/>
+
+</head>
+<body>
+
+<table class="container">
+    <thead>
+    <tr class="row">
+        <td class="col-2">ID</td>
+        <td class="col-2">LoginName</td>
+        <td class="col-2">Password</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user:${list}" class="row">
+        <td class="col-2" th:text="${user.id}"></td>
+        <td class="col-2" th:text="${user.loginName}"></td>
+        <td class="col-2" th:text="${user.password}"></td>
+    </tr>
+    </tbody>
+</table>
+
+<a href="login.html">静态页面</a><br>
+<a href="/first">firstServlet</a><br>
+<a href="/second">secondServlet</a><br>
+
+<div class="bs-example" data-example-id="simple-jumbotron">
+    <div class="jumbotron">
+        <h1>Hello, world!</h1>
+        <p>我们已经成功导入了BootStrapUI框架</p>
+        <p><a id="btn" class="btn btn-primary btn-lg" href="#" role="button">bootstrap button</a></p>
+    </div>
+</div>
+
+<script src="webjars/jquery/3.4.1/jquery.js" type="text/javascript"></script>
+<script src="webjars/bootstrap/4.3.1/js/bootstrap.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    $("#btn").on("click", function (e) {
+        alert("bootstrap button click");
+    })
+</script>
+</body>
+</html>

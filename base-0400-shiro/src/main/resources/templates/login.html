@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body style="height: 100%;margin: 0px;padding: 0px;">
+
+
+<div style="position: absolute;top:50%;left:50%;margin-top:-150px;margin-left:-100px;width:200px;height:300px;">
+    <input type="text" name="username" id="username">
+    <input type="password" name="password" id="password">
+    <input type="button" value="LOGIN" onclick="login()">
+
+</div>
+<script th:src="@{/js/jquery.min.js}"></script>
+<script th:inline="javascript"> var ctx = [[@{
+    /}]]; var captchaType = [[${captchaType}]]; </script>
+
+<script type="text/javascript">
+
+    if (top != self) {
+        top.location.href = ctx;
+    }
+
+    function login() {
+        var username = $("#username").val();
+        var password = $("#password").val();
+        if (!username) {
+            alert("用户名不能为空");
+        }
+        if (!password) {
+            alert("密码不能为空")
+        }
+
+        $.ajax({
+            url: "login",
+            type: "POST",
+            data: {username: username, password: password},
+            success: function (d, textStatus, jqXHR) {
+                if (d.success) {
+                    location.href = "index";
+                } else {
+                    alert(d.message);
+                }
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                alert("登录失败");
+            }
+        });
+
+    }
+
+</script>
+</body>
+</html>

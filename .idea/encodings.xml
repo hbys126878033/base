@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0100-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0101-mybatis-pagehelper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0102-mybatisplus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0103-mybatis-plus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0104-mybatis-plus-and-pagehelper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0105-data-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0200-springmvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0201-jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0300-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0400-shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-0501-cache" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

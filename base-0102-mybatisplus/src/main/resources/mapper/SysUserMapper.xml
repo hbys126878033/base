@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wondersgroup.model.mapper.SysUserMapper">
+    <resultMap id="BaseResultMap" type="com.wondersgroup.model.entity.SysUser">
+        <id column="ID" jdbcType="BIGINT" property="id"/>
+        <result column="LOGIN_NAME" jdbcType="VARCHAR" property="loginName"/>
+        <result column="PASSWORD" jdbcType="VARCHAR" property="password"/>
+        <result column="NAME" jdbcType="VARCHAR" property="name"/>
+        <result column="PHONE" jdbcType="CHAR" property="phone"/>
+        <result column="STATUS" jdbcType="CHAR" property="status"/>
+        <result column="EMAIL" jdbcType="VARCHAR" property="email"/>
+        <result column="USER_ORDER" jdbcType="INTEGER" property="userOrder"/>
+        <result column="INTERNAL" jdbcType="CHAR" property="internal"/>
+        <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="CREATE_ID" jdbcType="BIGINT" property="createId"/>
+        <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="UPDATE_ID" jdbcType="BIGINT" property="updateId"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        ID, LOGIN_NAME, PASSWORD, NAME, PHONE, STATUS, EMAIL, USER_ORDER, INTERNAL, CREATE_TIME,
+        CREATE_ID, UPDATE_TIME, UPDATE_ID
+    </sql>
+    <insert id="insertSelective" parameterType="com.wondersgroup.model.entity.SysUser">
+        insert into sys_user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                ID,
+            </if>
+            <if test="loginName != null">
+                LOGIN_NAME,
+            </if>
+            <if test="password != null">
+                PASSWORD,
+            </if>
+            <if test="name != null">
+                NAME,
+            </if>
+            <if test="phone != null">
+                PHONE,
+            </if>
+            <if test="status != null">
+                STATUS,
+            </if>
+            <if test="email != null">
+                EMAIL,
+            </if>
+            <if test="userOrder != null">
+                USER_ORDER,
+            </if>
+            <if test="internal != null">
+                INTERNAL,
+            </if>
+            <if test="createTime != null">
+                CREATE_TIME,
+            </if>
+            <if test="createId != null">
+                CREATE_ID,
+            </if>
+            <if test="updateTime != null">
+                UPDATE_TIME,
+            </if>
+            <if test="updateId != null">
+                UPDATE_ID,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=BIGINT},
+            </if>
+            <if test="loginName != null">
+                #{loginName,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                #{password,jdbcType=VARCHAR},
+            </if>
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="phone != null">
+                #{phone,jdbcType=CHAR},
+            </if>
+            <if test="status != null">
+                #{status,jdbcType=CHAR},
+            </if>
+            <if test="email != null">
+                #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="userOrder != null">
+                #{userOrder,jdbcType=INTEGER},
+            </if>
+            <if test="internal != null">
+                #{internal,jdbcType=CHAR},
+            </if>
+            <if test="createTime != null">
+                #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createId != null">
+                #{createId,jdbcType=BIGINT},
+            </if>
+            <if test="updateTime != null">
+                #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateId != null">
+                #{updateId,jdbcType=BIGINT},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.wondersgroup.model.entity.SysUser">
+        update sys_user
+        <set>
+            <if test="loginName != null">
+                LOGIN_NAME = #{loginName,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                PASSWORD = #{password,jdbcType=VARCHAR},
+            </if>
+            <if test="name != null">
+                NAME = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="phone != null">
+                PHONE = #{phone,jdbcType=CHAR},
+            </if>
+            <if test="status != null">
+                STATUS = #{status,jdbcType=CHAR},
+            </if>
+            <if test="email != null">
+                EMAIL = #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="userOrder != null">
+                USER_ORDER = #{userOrder,jdbcType=INTEGER},
+            </if>
+            <if test="internal != null">
+                INTERNAL = #{internal,jdbcType=CHAR},
+            </if>
+            <if test="createTime != null">
+                CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="createId != null">
+                CREATE_ID = #{createId,jdbcType=BIGINT},
+            </if>
+            <if test="updateTime != null">
+                UPDATE_TIME = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateId != null">
+                UPDATE_ID = #{updateId,jdbcType=BIGINT},
+            </if>
+        </set>
+        where ID = #{id,jdbcType=BIGINT}
+    </update>
+</mapper>
