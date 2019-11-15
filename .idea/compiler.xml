@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="base-0501-cache" />
-        <module name="base-0105-data-jpa" />
-        <module name="base-0300-aop" />
-        <module name="base-0201-jsp" />
-        <module name="base-0101-mybatis-pagehelper" />
-        <module name="base-0104-mybatis-plus-and-pagehelper" />
-        <module name="base" />
-        <module name="base-0400-shiro" />
-        <module name="base-0100-mybatis" />
-        <module name="base-0102-mybatisplus" />
-        <module name="base-0103-mybatis-plus" />
         <module name="base-0200-springmvc" />
+        <module name="base-0102-mybatisplus" />
+        <module name="base-0201-jsp" />
+        <module name="base-0104-mybatis-plus-and-pagehelper" />
         <module name="core" />
+        <module name="base-0300-aop" />
+        <module name="base-0100-mybatis" />
+        <module name="base-0103-mybatis-plus" />
+        <module name="base-0501-cache" />
+        <module name="base" />
+        <module name="base-0105-data-jpa" />
+        <module name="base-0400-shiro" />
+        <module name="base-0101-mybatis-pagehelper" />
+        <module name="base-0100-command-line_runner" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="base" options="-parameters" />
+      <module name="base-0100-command-line_runner" options="-parameters" />
       <module name="base-0100-mybatis" options="-parameters" />
       <module name="base-0101-mybatis-pagehelper" options="-parameters" />
       <module name="base-0102-mybatisplus" options="-parameters" />

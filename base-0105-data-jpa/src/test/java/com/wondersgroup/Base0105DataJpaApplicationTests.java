@@ -73,6 +73,6 @@ class Base0105DataJpaApplicationTests {
         User one = userJapDao.getOne(1L);
         System.out.println(one);
         userJapDao.findById(1L);
-        userJapDao.findAll()
+        userJapDao.findAll();
     }
 }

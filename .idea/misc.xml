@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/base-0103-mybatis-plus/pom.xml" />
         <option value="$PROJECT_DIR$/base-0104-mybatis-plus-and-pagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/base-0105-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/base-0100-command-line_runner/pom.xml" />
       </list>
     </option>
   </component>
