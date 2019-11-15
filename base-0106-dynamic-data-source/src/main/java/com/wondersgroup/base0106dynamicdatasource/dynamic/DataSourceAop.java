@@ -35,7 +35,7 @@ public class DataSourceAop {
      */
     @Around(value="@within(com.wondersgroup.base0106dynamicdatasource.dynamic.DataSource) || " +
             "@annotation(com.wondersgroup.base0106dynamicdatasource.dynamic.DataSource)")
-    public Object handlerDynamicDataSource(ProceedingJoinPoint joinPoint){
+    public Object handlerDynamicDataSource(ProceedingJoinPoint joinPoint) throws Throwable {
 
         try {
 
@@ -55,9 +55,6 @@ public class DataSourceAop {
                 }
             }
             return joinPoint.proceed();
-        } catch (Throwable throwable) {
-            throwable.printStackTrace();
-            throw new RuntimeException(throwable);
         } finally {
             DynamicDataSource.remove();
         }
